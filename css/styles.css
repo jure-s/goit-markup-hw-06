@@ -1,0 +1,605 @@
+/* ============= VARIABLES ============= */
+
+
+/* ============= /VARIABLES ============= */
+
+/* ============= COMMON STYLES ============= */
+
+    
+/* ============= COMMON STYLES ============= */
+
+/* ============= PAGE HEADER ============= */
+
+
+/* ============= PAGE HEADER ============= */
+
+/* ================ COMPONENTS ================ */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-color);
+    margin-bottom: 72px;
+}
+/* ================ /COMPONENTS ================ */
+
+/* ================ HERO ================ */
+.hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--primary-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+    background-size: cover;
+}
+
+.main-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+
+.order-service-btn {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    text-align: center;
+    background-color: var(--third-color);
+    color: #FFFFFF;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.order-service-btn:hover,
+.order-service-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+/* ================ HERO ================ */
+
+/* ================ BENEFITS ================ */
+.page-section-container {
+    display: flex;
+    gap: 24px;
+    }
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+}
+
+.benefits-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+}
+
+.benefits-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.benefits-list-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-color);
+}
+
+.benefits-icon {
+    border-radius: 4px;
+    background-color: #F4F4FD;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+/* ================ /BENEFITS ================ */
+
+/* ================ WHAT ARE WE DOING ================ */
+.what-doing-list {
+    padding-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.what-doing-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+    text-align: center;
+}
+
+.what-doing {
+    padding-top: 0px;
+}
+
+/* ================ /WHAT ARE WE DOING ================ */
+
+/* ================ OUR TEAM ================ */
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    flex-basis: calc((100% - 72px) / 4);
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-title, .products-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--primary-color);
+}
+
+.team-profession, .products-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: var(--secondary-color);
+}
+
+.team-position {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.section-worker {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-list-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-item-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.team-link-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--third-color);
+    transition: background-color var(--transition-dur-and-func);
+}
+
+.team-link-icon:hover,
+.team-link-icon:focus {
+    background-color: var(--accent-color);
+}
+
+.team-icon {
+    fill: #F4F4FD;
+}
+
+/* ================ /OUR TEAM ================ */
+
+/* ================ CUSTOMERS ================ */
+.customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.customers-list-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.customers-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: var(--icon-color);
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    transition: border-color var(--transition-dur-and-func),
+                color var(--transition-dur-and-func);
+    fill:var(--icon-color);
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
+}
+
+.customers-icon {
+    fill: currentColor;
+    border-radius: 4px;
+    transition: color var(--transition-dur-and-func);
+}
+
+.customers-icon:hover,
+.customers-icon:focus {
+    fill: var(--accent-color);
+}
+/* ================ /CUSTOMERS ================ */
+
+/* ================ FOOTER ================ */
+
+/* ================ /FOOTER ================ */
+
+/* ================ PORTFOLIO ================ */
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.products-list-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
+
+.products-list-link {
+    display: block;
+    transition: box-shadow var(--transition-dur-and-func)
+}
+
+.products-list-link:hover,
+.products-list-link:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    padding: 40px 32px;
+    background-color: var(--third-color);
+    transform: translateY(100%);
+    transition: transform var(--transition-dur-and-func);
+}
+
+.products-list-link:hover .overlay {
+    transform: translateY(0%);
+}
+
+.products-list-link:focus .overlay {
+    transform: translateY(0%);
+}
+
+.products-list-img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.products-list-title {
+    margin-bottom: 8px;
+}
+
+.section-products {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.sort-btn {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    text-align: center;
+    background-color: #F4F4FD;
+    color: var(--third-color);
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+    transition: color var(--transition-dur-and-func),
+                background-color var(--transition-dur-and-func),
+                border-color var(--transition-dur-and-func),
+                box-shadow var(--transition-dur-and-func);
+}
+
+.sort-btn:hover,
+.sort-btn:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+/* ================ /PORTFOLIO ================ */
+
+/* ================ BACKDROP ================ */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+
+    transition: opacity var(--transition-dur-and-func), visibility var(--transition-dur-and-func);
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+/* ================ /BACKDROP ================ */
+
+/* ================ MODAL WINDOW ================ */
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 408px;
+    padding: 72px 24px 24px 24px;
+    min-height: 584px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background-color: #FCFCFC;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+    transition: transform var(--transition-dur-and-func);
+}
+
+.close-btn-icon {
+    transition: fill var(--transition-dur-and-func);
+}
+
+.close-btn {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    fill: var(--primary-color);
+    padding: 0;
+    line-height: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: background-color var(--transition-dur-and-func), border var(--transition-dur-and-func);
+}
+
+.close-btn:hover,
+.close-btn:focus {
+        background-color: var(--accent-color);
+        fill: #FFFFFF;
+        border: none;
+}
+
+.review-form-description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+    color: var(--primary-color);
+}
+
+.review-form-field {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.add-textarea  {
+     display: block;
+     margin-bottom: 16px;
+ }
+
+.review-form-field-desc {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    margin-bottom: 4px;
+    color: var(--icon-color);
+}
+
+.review-form-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 38px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color var(--transition-dur-and-func);
+}
+
+.review-form-input:focus {
+    border-color: var(--third-color);
+    outline-color: transparent;
+    outline-offset: 4px;
+}
+
+.review-form-input-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    stroke: var(--primary-color);
+    fill: var(--primary-color);
+    transition: stroke var(--transition-dur-and-func);
+    transition: fill var(--transition-dur-and-func);
+}
+
+.review-form-input-wrapper {
+    display: block;
+    position: relative;
+}
+
+.review-form-input:focus + .review-form-input-icon {
+    stroke: var(--third-color);
+    fill: var(--third-color);
+}
+
+.review-form-message {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    padding: 8px 16px;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color var(--transition-dur-and-func)
+}
+
+.review-form-message:focus {
+    border-color: var(--third-color);
+    outline-color: transparent;
+    outline-offset: 4px;
+}
+
+.review-form-message::placeholder {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: rgba(46, 47, 66, 0.40);
+}
+
+.modal-check-wrapper {
+    margin-bottom: 24px;
+}
+
+.review-form-checkbox-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    margin-top: 8px;
+    color: var(--icon-color);
+}
+
+.review-form-policy-link {
+    color: var(--third-color);
+}
+
+.modal-check-box {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    transition: background-color var(--transition-dur-and-func),
+        border var(--transition-dur-and-func),
+        fill var(--transition-dur-and-func);
+    cursor: pointer;
+}
+
+.review-form-checkbox:checked + .review-form-checkbox-label > .modal-check-box {
+    background-color: var(--accent-color);
+    border: none;
+    fill: #F4F4FD;
+}
+
+.review-form-checkbox:focus+.review-form-own-checkbox {
+    outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
+.review-form-btn {
+    display: block;
+    margin: 0 auto;
+    height: 56px;
+    padding: auto;
+    min-width: 169px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: var(--third-color);
+    color: #ffffff;
+    border-radius: 4px;
+    border-color: transparent;
+    transition: background-color var(--transition-dur-and-func);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.review-form-btn:hover,
+.review-form-btn:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+
+/* ================ /MODAL WINDOW ================ */
